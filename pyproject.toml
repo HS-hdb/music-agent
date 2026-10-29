@@ -1,0 +1,18 @@
+[project]
+name = "music-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "echome", email = "3314427565@qq.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "openai>=3.41.0",
+    "python-dotenv>=1.2.4",
+]
+
+[dependency-groups]
+dev = [
+    "pyright>=1.1.414",
+]
